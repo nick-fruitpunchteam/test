@@ -6,5 +6,5 @@ app.use((ctx) => {
   ctx.response.body = "Hello World!";
 });
 
-await app.listen({ port: 8000 });
+await app.listen({ port: 80 });
 
